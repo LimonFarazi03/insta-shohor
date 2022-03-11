@@ -152,7 +152,6 @@ const displayLikedPosts = () => {
         document.getElementById( "liked" ).appendChild(div);
     });
 };
-// ------
 const displayReportedPosts = () => {
     document.getElementById( "reported" ).innerHTML = '';
     const reportedPosts = getReportedPosts();
